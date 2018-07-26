@@ -12,8 +12,6 @@ gitbash: docker exec -it python-demo //bin/bash (×/bin/bash×)
 
 (docker container run --rm -p 8000:80 -it python-demo:0.6)
 
-run -p 8000:80 -it python-demo:0.6 /bin/bash
-
 docker login
 
 docker image tag python-demo:0.6 wodequanpin/python-demo:0.6
