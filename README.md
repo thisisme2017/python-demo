@@ -6,8 +6,9 @@ docker container run -p 8000:80 -it python-demo:0.6 /bin/bash
 
 root@xxxxx:/app# python hello.py
 
-cmd docker exec -it python-demo /bin/bash
-gitbash docker exec -it python-demo //bin/bash (×/bin/bash×)
+cmd: docker exec -it python-demo /bin/bash
+
+gitbash: docker exec -it python-demo //bin/bash (×/bin/bash×)
 
 (docker container run --rm -p 8000:80 -it python-demo:0.6)
 
